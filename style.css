@@ -1,0 +1,312 @@
+/*
+     FILE ARCHIVED ON 13:49:41 déc. 28, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:38:07 mai 3, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+style.css
+---------
+pour PUNCHCLASH.com
+*/
+
+
+@import 'reset.css';
+
+body
+{
+	width: 1000px;
+    background-color: black;
+    color: white;
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+	font-size: 1em; 
+}
+
+nav
+{
+    width: 1000px;
+	color: #fc580e;
+	font-size: 40px;
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+	text-align: center;
+    display: inline-block;
+	padding: 0 0 0 0;
+	padding: 15px 0 10px 0;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	height: 70px;
+	list-style-type : none; /* Car sinon les puces se placent n'importe où */
+}
+
+nav ul
+{
+    width: 980px;
+	list-style-type: none;
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+	display: inline-block;
+	height: 70px;
+}	
+
+nav li
+{
+	font-size: 40px;
+	padding-top: 0px;
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.prev
+{
+    float: left;
+}
+
+.next
+{
+    float: right;
+}
+
+input[type="submit"]
+{ 
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;		
+}
+
+#fight
+{ 
+	text-align: center;
+	border: 1px solid #fc580e;
+	font-size: 40px;
+}
+
+#fight:hover
+{ 
+	color: #fc580e;
+	border: 1px solid #fc580e;
+	-webkit-transition: color 0.3s; /* Safari */
+    transition: color 0.3s;
+}
+
+#fight:focus
+{ 
+	color: #fc580e;
+	border: 1px solid  white;
+}
+
+input[type="text"]
+{ 
+	text-align: center;
+	font-size: 40px;
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;	
+}
+
+.field {
+	background: #fc580e;
+	border: 1px solid white;
+}
+
+.wrongnumber {
+	background: #ffffff;
+	border: 1px solid white;
+	color: #ff0000;
+	-webkit-transition: color 0.5s, background 0.7s; /* Safari */
+    transition: color 0.5s, background 0.7s;
+}
+
+input[type="text"]:hover
+{ 
+	background: #ffffff;
+	-webkit-transition: background 0.3s; /* Safari */
+    transition: background 0.3s;	
+}
+
+#prevButton, #nextButton
+{ 
+	font-size: 35px;
+	background: black;
+	color: white;
+	border: 1px solid #fd8c59;
+	width: 60px;
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;	
+}
+
+#prevButton:hover, #nextButton:hover
+{ 
+	background: black;
+	color: #fc580e;
+	border: 1px solid #ffffff;
+	-webkit-transition: color 0.3s; /* Safari */
+    transition: color 0.3s;	
+}
+
+nav a:link
+{
+    color: #fffff;
+}
+ 
+nav a:hover
+{
+    color: #fc580e;
+}
+
+nav a:visited
+{
+    color: #fffff;
+}
+
+div[name="clash"]
+{
+	width: 990px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.data
+{
+	width: 450px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#portraitn
+{
+	float: left;
+	margin: 0 auto;
+	padding: 30px 20px 0 20px;
+}
+
+#portraitn:hover
+{
+	
+}
+
+#portraitb
+{
+	float: right;
+	margin: 0 auto;
+	padding: 30px 20px 0 20px;
+}
+
+#portraitb:hover
+{
+	
+}
+
+#quoten
+{
+	float: left;
+}
+
+#quoten:hover
+{
+	color: #000000;
+	background: white;
+	border: 1px solid #000000;
+	-webkit-transition: background 0.6s; /* Safari */
+    transition: background 0.6s;
+
+}
+
+#quoteb
+{
+	float: right;
+
+}
+
+#quoteb:hover
+{
+	color: #000000;
+	background: white;
+	border: 1px solid #000000;
+	-webkit-transition: background 0.6s; /* Safari */
+    transition: background 0.6s;
+}
+
+.quote
+{
+	color: #ffffff;
+	width: 450px;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid #fd8c59;
+	padding: 20px 15px 20px 15px;
+	min-height: 205px;
+	vertical-align: middle;
+	font-size: 24px;
+	display: table-cell;
+}
+
+.wrongway
+{
+	color: #ff0000;
+	background: #ffffff;
+	font-size: 24px;
+	width: 450px;
+	min-height: 205px;
+	vertical-align: middle;
+	padding: 20px 15px 20px 15px;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid #000000;
+	-webkit-transition: color 0.5s, background 0.7s; /* Safari */
+    transition: color 0.5s, background 0.7s;
+}
+
+#refn
+{
+	color: white;
+	font-size: 16px;
+	text-align: right;
+	font-family: sans-serif;
+	float: left;
+	padding: 5px 20px 0px 20px;
+
+}
+
+.removed {
+	color: black;
+}
+
+#refb
+{
+	color: white;
+	font-size: 16px;
+	text-align: left;
+	font-family: sans-serif;
+	float: right;
+	padding: 5px 20px 0px 20px;
+}
+
+.fb-like
+{
+	margin: 0 auto;
+	width: 150px;
+}
+
+.fb-comments
+{
+	margin: 0 auto;
+}
+
+.address
+{
+	width: 100%;
+	font-size: 12px;
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+.address a
+{
+    color: #fc580e;
+    padding-bottom: 3px;
+}
+
+.address a:visited
+{
+    color: #fc580e;
+    border-bottom: 2px solid #fc580e;
+}

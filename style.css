@@ -1,12 +1,4 @@
 /*
-     FILE ARCHIVED ON 13:49:41 déc. 28, 2013 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:38:07 mai 3, 2016.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
 style.css
 ---------
 pour PUNCHCLASH.com
@@ -15,17 +7,15 @@ pour PUNCHCLASH.com
 
 @import 'reset.css';
 
-body
-{
+body {
 	width: 1000px;
     background-color: black;
     color: white;
 	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
-	font-size: 1em; 
+	font-size: 1em;
 }
 
-nav
-{
+nav {
     width: 1000px;
 	color: #fc580e;
 	font-size: 40px;
@@ -40,17 +30,15 @@ nav
 	list-style-type : none; /* Car sinon les puces se placent n'importe où */
 }
 
-nav ul
-{
+nav ul {
     width: 980px;
 	list-style-type: none;
 	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
 	display: inline-block;
 	height: 70px;
-}	
+}
 
-nav li
-{
+nav li {
 	font-size: 40px;
 	padding-top: 0px;
 	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
@@ -58,47 +46,40 @@ nav li
 	display: inline-block;
 }
 
-.prev
-{
+.prev {
     float: left;
 }
 
-.next
-{
+.next {
     float: right;
 }
 
-input[type="submit"]
-{ 
-	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;		
+input[type="submit"] {
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
 }
 
-#fight
-{ 
+#fight {
 	text-align: center;
 	border: 1px solid #fc580e;
 	font-size: 40px;
 }
 
-#fight:hover
-{ 
+#fight:hover {
 	color: #fc580e;
 	border: 1px solid #fc580e;
 	-webkit-transition: color 0.3s; /* Safari */
     transition: color 0.3s;
 }
 
-#fight:focus
-{ 
+#fight:focus {
 	color: #fc580e;
 	border: 1px solid  white;
 }
 
-input[type="text"]
-{ 
+input[type="text"] {
 	text-align: center;
 	font-size: 40px;
-	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;	
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
 }
 
 .field {
@@ -114,117 +95,99 @@ input[type="text"]
     transition: color 0.5s, background 0.7s;
 }
 
-input[type="text"]:hover
-{ 
+input[type="text"]:hover {
 	background: #ffffff;
 	-webkit-transition: background 0.3s; /* Safari */
-    transition: background 0.3s;	
+    transition: background 0.3s;
 }
 
-#prevButton, #nextButton
-{ 
+#prevButton, #nextButton {
 	font-size: 35px;
 	background: black;
 	color: white;
 	border: 1px solid #fd8c59;
 	width: 60px;
-	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;	
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
 }
 
-#prevButton:hover, #nextButton:hover
-{ 
+#prevButton:hover, #nextButton:hover {
 	background: black;
 	color: #fc580e;
 	border: 1px solid #ffffff;
 	-webkit-transition: color 0.3s; /* Safari */
-    transition: color 0.3s;	
+  transition: color 0.3s;
 }
 
-nav a:link
-{
+nav a:link {
     color: #fffff;
 }
- 
-nav a:hover
-{
+
+nav a:hover {
     color: #fc580e;
 }
 
-nav a:visited
-{
+nav a:visited {
     color: #fffff;
 }
 
-div[name="clash"]
-{
+div[name="clash"] {
 	width: 990px;
 	height: 800px;
 	margin: 0 auto;
 }
 
-.data
-{
+.data {
 	width: 450px;
 	margin: 0 auto;
 	text-align: center;
 }
 
-#portraitn
-{
+#portraitn {
 	float: left;
 	margin: 0 auto;
 	padding: 30px 20px 0 20px;
 }
 
-#portraitn:hover
-{
-	
+#portraitn:hover {
+
 }
 
-#portraitb
-{
+#portraitb {
 	float: right;
 	margin: 0 auto;
 	padding: 30px 20px 0 20px;
 }
 
-#portraitb:hover
-{
-	
+#portraitb:hover {
+
 }
 
-#quoten
-{
+#quoten {
 	float: left;
 }
 
-#quoten:hover
-{
+#quoten:hover {
 	color: #000000;
 	background: white;
 	border: 1px solid #000000;
-	-webkit-transition: background 0.6s; /* Safari */
-    transition: background 0.6s;
-
+	-webkit-transition: background 0.8s; /* Safari */
+  transition: background 0.8s;
 }
 
-#quoteb
-{
+#quoteb {
 	float: right;
 
 }
 
-#quoteb:hover
-{
+#quoteb:hover {
 	color: #000000;
 	background: white;
 	border: 1px solid #000000;
-	-webkit-transition: background 0.6s; /* Safari */
-    transition: background 0.6s;
+	-webkit-transition: background 0.8s; /* Safari */
+  transition: background 0.8s;
 }
 
-.quote
-{
+.quote {
 	color: #ffffff;
 	width: 450px;
 	margin: 0 auto;
@@ -234,11 +197,11 @@ div[name="clash"]
 	min-height: 205px;
 	vertical-align: middle;
 	font-size: 24px;
+	font-weight: 100;
 	display: table-cell;
 }
 
-.wrongway
-{
+.wrongway {
 	color: #ff0000;
 	background: #ffffff;
 	font-size: 24px;
@@ -253,8 +216,7 @@ div[name="clash"]
     transition: color 0.5s, background 0.7s;
 }
 
-#refn
-{
+#refn {
 	color: white;
 	font-size: 16px;
 	text-align: right;
@@ -268,8 +230,7 @@ div[name="clash"]
 	color: black;
 }
 
-#refb
-{
+#refb {
 	color: white;
 	font-size: 16px;
 	text-align: left;
